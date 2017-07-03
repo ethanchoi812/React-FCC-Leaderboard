@@ -1,16 +1,38 @@
+@import 'vars';
+
+body {
+  @include linear-gradient(to right top, rgba(255,253,209,1) 0%, rgba(178,231,255,1) 100%);
+}
+
+a {
+  text-decoration: none;
+  color: #395870;
+  font-weight: 700;
+
+  &:hover {
+    color: #5E6070;
+  }
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 40px;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+  background: #5E6070;
+  height: 100px;
+  padding: 15px;
   color: white;
 }
 
@@ -18,12 +40,72 @@
   font-size: large;
 }
 
+.user {
+  text-align: left;
+  vertical-align: middle;
+}
+
 .profile-pic {
   width: 50px;
   height: auto;
+  margin-right: 12px;
+  vertical-align: middle;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.username {
+  font-size: 18px;
+
 }
+
+.sorter-heading {
+  cursor: pointer;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 0 auto;
+  margin-top: 20px;
+  font: 18px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+th,
+td {
+  padding: 10px 15px;
+  vertical-align: middle;
+}
+
+thead {
+  background: #395870;
+  color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background: #f0f0f2;
+}
+
+tbody tr:nth-child(odd) {
+  background: #fff;
+}
+
+td {
+  border-bottom: 1px solid #cecfd5;
+  border-right: 1px solid #cecfd5;
+}
+td:first-child {
+  border-left: 1px solid #cecfd5;
+}
+
+.arrow {
+  color: #ccc;
+}
+
+.recent{
+    color: #7affc7;
+  }
+
+  footer{
+    margin-top: 25px;
+    margin-bottom: 5px;
+  }
+

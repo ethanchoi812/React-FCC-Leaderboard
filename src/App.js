@@ -12,6 +12,7 @@ class App extends Component {
           <h2>freeCodeCamp Camper Leaderboard</h2>
         </div>
         <Board />
+        <footer><a href="">Github repo</a></footer>
       </div>
     );
   }
