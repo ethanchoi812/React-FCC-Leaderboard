@@ -1,8 +1,8 @@
 {
   "name": "leaderboard",
+  "homepage": "https://ethanchoi812.github.io/React-FCC-Leaderboard",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ethanchoi812.github.io/react-fcc-leaderboard",
   "dependencies": {
     "gh-pages": "^1.0.0",
     "node-sass-chokidar": "0.0.3",
