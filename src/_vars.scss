@@ -1,3 +1,23 @@
+
+/// fonts
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Zilla+Slab');
+$header-font: 'Lato', sans-serif;
+
+
+/// color
+
+$white: #fff;
+$dark-gray: #ccc;
+$gray: #5E6070;
+$navy: #395870;
+$green: #7affc7;
+
+
+/// border
+
+$border-base: 1px solid #cecfd5;
+
 /// Mixin printing a linear-gradient
 /// as well as a plain color fallback
 /// and the `-webkit-` prefixed declaration
